@@ -7,9 +7,11 @@ import FastClick from 'fastclick'
 
 //  引入初始化css样式文件
 //  由于不同设备浏览器的初始样式不一致 这里引入统一的初始化样式
-import './assets/styles/reset.css'
+import 'styles/reset.css'
 //  引入border样式 纠正不同倍的屏幕对于1px有偏差
-import './assets/styles/border.css'
+import 'styles/border.css'
+//  引入iconfont图标样式
+import 'styles/iconfont.css'
 
 Vue.config.productionTip = false
 //  由于移动的点击事件存在300毫秒的延迟 导致用户体验不好 这里引入第三方的fastclick包 来解决这个问题
